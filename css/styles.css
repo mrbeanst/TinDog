@@ -1,29 +1,35 @@
 /*                       TAGS                      */
 body {
   font-family: "Montserrat";
+  text-align: center;
 }
 
 p {
   color: #8f8f8f;
 }
 
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3.5rem;
-  font-weight: 900;
-  line-height: 1.5;
-}
-
-h2 {
-  font-family: "Monteserrat-Bold", sans-serif;
-  font-size: 3rem;
-  font-weight: 900;
-  line-height: 1.5;
-}
-
-h3 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Monteserrat-Bold", sans-serif;
   font-weight: 600;
+}
+
+
+/*                       HEADINGS                          */
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .icon {
@@ -35,28 +41,37 @@ h3 {
   color: #ff4c68;
 }
 
-/*                       CLASSES                          */
+
 .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 7% 15%;
 }
 
-/*                       IDS                          */
+/*                       Feature                          */
 
 #features {
-  padding: 7% 15%;
   background-color: #fff;
   position: relative;
 
 }
 
 .feature-box {
-  text-align: center;
   padding: 5%;
+}
+
+/*                       TITLE SECTION                         */
+
+.feature-title {
+  font-size: 1.5rem;
 }
 
 #title {
   color: #fff;
   background-color: #ff4c68;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 7% 15%
 }
 
 /*                       NAVIGATION BAR                        */
@@ -91,33 +106,31 @@ nav-link {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
-  margin-top: 1px;
+  margin-top: -300px;
   position: absolute;
-  right: 30%;
+  right: -60%;
 }
 
 /*                       TESTIMONIALS                       */
 
 #testimonials {
-
-  text-align: center;
   background-color: #ff4c68;
   color: #fff;
 }
 
-.testimonials-image {
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
 #press {
   background-color: #ff4c68;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -135,7 +148,11 @@ btn:not(:disabled):not(.disabled) {
 
 #pricing {
   padding: 100px;
-  text-align: center;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .pricing-column {
@@ -154,9 +171,7 @@ btn:not(:disabled):not(.disabled) {
 }
 
 #cta {
-  text-align: center;
   background-color: #FF4C78;
-  padding: 7% 15%;
 }
 
 .findLove {
@@ -167,15 +182,9 @@ btn:not(:disabled):not(.disabled) {
   line-height: 1.5;
 }
 
-#footer {
-  text-align: center;
-  padding: 7% 15%;
-}
-
 .social-icon {
   margin: 20px 10px;
 }
-
 
 a {
   color: #000000;
