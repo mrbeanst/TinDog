@@ -49,9 +49,7 @@ h6 {
 /*                       Feature                          */
 
 #features {
-  background-color: #fff;
   position: relative;
-
 }
 
 .feature-box {
@@ -60,18 +58,26 @@ h6 {
 
 /*                       TITLE SECTION                         */
 
-.feature-title {
+#title {
+  text-align: left;
   font-size: 1.5rem;
 }
 
-#title {
-  color: #fff;
-  background-color: #ff4c68;
-  text-align: left;
-}
+/*                       CONTAINERS                         */
 
 #title .container-fluid {
   padding: 3% 7% 15%
+}
+
+/*                      SECTIONS                         */
+
+.colored-section {
+  color: #fff;
+  background-color: #ff4c68;
+}
+
+.white-section {
+  background-color: #fff;
 }
 
 /*                       NAVIGATION BAR                        */
@@ -115,7 +121,6 @@ nav-link {
 
 #testimonials {
   background-color: #ff4c68;
-  color: #fff;
 }
 
 .testimonial-text {
@@ -168,10 +173,6 @@ btn:not(:disabled):not(.disabled) {
     position: static;
     transform: rotate(0);
   }
-}
-
-#cta {
-  background-color: #FF4C78;
 }
 
 .findLove {
